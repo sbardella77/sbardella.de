@@ -1,0 +1,141 @@
+/* .my-story{
+    font-family: 'Ubuntu Mono', monospace;
+    border:solid 1px black;
+}
+.my-story h2,p{
+    font-family: 'Ubuntu Mono', monospace;
+
+} */
+
+
+
+.about-foto{
+    width:80%;
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 15% 5%;
+
+
+}
+.about-foto img{
+    /* border:solid 1px black; */
+    width:75%;
+    background: tomato;
+    opacity: 0.7;    
+    
+}
+
+.about-grid h1,p{
+    font-family: 'Ubuntu Mono', monospace;
+
+}
+.about-grid h1{
+    font-size:40px;
+    color:#D480AA;
+}
+.about-grid p{
+    font-size:25px;
+    line-height: 1.8em;
+    color: grey;
+}
+.about-right-col{
+    border: solid #C7D1DB 1px;
+    border-radius: 5%;
+    background: #EDF0F5;
+    /* color: beige; */
+    font-family: 'Ubuntu Mono', monospace;
+    height: 90vh;
+    /* border: solid 1px #48E2BC; */
+}
+
+#myTab{
+    width: 100%;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+#myTab .mdl-tabs__tab.is-active:after {
+    height: 2px;
+    width: 100%;
+    display: block;
+    content: " ";
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    color: #48E2BC;
+    background: #48E2BC;
+    animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s alternate forwards;
+    transition: all 1s cubic-bezier(0.4, 0, 1, 1);
+}
+
+#myTab .mdl-tabs__tab {
+    color:grey; 
+    text-transform: unset;
+    font-size:20px;
+}
+#myTab .mdl-tabs__tab.is-active {
+    color:#48e2bc;
+}
+
+/* #myTab .mdl-tabs__tab {
+   
+    /* border:solid 1px #48e2bc; */
+    /* border-top-left-radius: 20%;
+    border-top-right-radius: 50%; */
+
+
+.mdl-tabs__tab-bar{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+}
+
+.about-content{
+    padding:8%;
+}
+
+.download-file{
+    /* border:solid 1px green; */
+    font-size:25px;
+    
+}
+.download-file a{
+    /* border:solid 1px green; */
+    font-size:25px;
+    text-decoration: none;
+}
+
+@media (max-width:600px){
+    .about-right-col{
+        margin-left:18%;
+    }
+    
+    .about-grid h1{
+        margin-top:35px;
+        font-size:30px;
+        color:#D480AA;
+    }
+    .about-grid p{
+        font-size:25px;
+        line-height: 1.8em;
+        color: grey;
+    }
+
+}
+@media (max-width:375px){
+    #myTab{
+        display:none;
+    }
+    
+    .about-grid h1{
+        margin-top:35px;
+        font-size:30px;
+        color:#D480AA;
+    }
+    .about-grid p{
+        font-size:25px;
+        line-height: 1.8em;
+        color: grey;
+    }
+
+}

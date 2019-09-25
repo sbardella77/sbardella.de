@@ -1,0 +1,105 @@
+
+
+.card-text{
+    font-family: 'Ubuntu Mono', monospace;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    /* border:solid 1px black; */
+    width: 100%;
+}
+.card-text i{
+    font-size: 30px;
+    color:#48E2BC;
+    
+}
+
+.card-text i:hover{
+    font-size: 30px;
+    color:#48E2BC;
+    animation: card-anime 2s ease;
+}
+
+#myCardText i {
+    font-size: 30px;
+    color:#48E2BC;
+}
+
+
+@keyframes card-anime{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg)
+    }
+}
+
+
+#myProjCard{
+    /* border:solid grey 1px; */
+    position: absolute;
+    margin-top:5%;
+    margin-left:auto;
+    width: 80%;
+    height: 60%;
+   
+ 
+}
+.projects-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 360px) {
+    .projects-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-left:-80px;
+        
+    }
+    #myProjCard{
+        margin-top:15%;
+        width: 100vw;
+        height: 100vh;
+        margin-top: 15%;
+    }
+    .mdl-card{
+        margin-bottom: 30px;
+    }
+
+}
+
+
+.projects-grid h4{
+    margin-top:130px;
+    color:rgb(38, 128, 105);
+    font-family: 'Ubuntu Mono', monospace;
+}
+.projects-grid a{
+    text-decoration: none;
+
+}
+
+.project-tabs{
+    margin-top:5%;
+    margin-left:10%;
+    width: 80%;
+}
+
+#myproyTab .mdl-tabs__tab {
+    color:grey; 
+    text-transform: unset;
+    font-size:20px;
+}
+#myproyTab .mdl-tabs__tab.is-active {
+    color:#48e2bc;
+}
+#myproyTab .mdl-tabs__tab.is-active:after {
+    color:#48e2bc;
+    background:#48e2bc;
+}

@@ -1,0 +1,23 @@
+[
+      
+    {
+        "title":"my story",
+        "description":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    },
+    {
+        "title":"A Passion is Born",
+        "description":"Training as an object-oriented programming developer. I learned programming      languages like Java (it was a new language with the Visual Code development environment), Visual Basic, SQL for relational databases. In this period I discover my passion for the developing"
+    },
+
+    {
+        "title": "The Road in my job-life is marked",
+        "description":"During this time I was able to increase my passion for economics and information technology. Working with SAP-CO, SAP-FI, analyzing and developing three-year Budget and Forecast plans of Telespazio S.pa."
+    },
+    {
+        "title": "Given to others",
+        "description":"Missionary volunteer in Kenya. In his daily routine I helped the poor in the slums of Mombasa. at this time I learned to get out of myself and see others in their difficulties and help them!"
+    },
+    {
+        "title": "...new Challenge",
+        "description":"at 42 I find myself studying again. Am I too old? I don't know ! this is a challenge! and I like the challenges !"
+    }
